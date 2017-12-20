@@ -69,19 +69,6 @@ print str(nearest_user[0])
 print type(nearest_user[0])
 
 
-# userId = "hys"
-#
-# # cha fe
-#
-#
-# def error(point):
-#     center = clusters.centers[clusters.predict(point)]
-#     return sqrt(sum([x**2 for x in (point - center)]))
-#
-#
-# WSSSE = parsedData.map(lambda point: error(point)).reduce(lambda x, y: x + y)/parsedData.count();
-# print("The standardized error is " + str(WSSSE))
-
 
 '''
 # Save and load model
